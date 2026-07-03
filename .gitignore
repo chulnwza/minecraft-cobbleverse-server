@@ -1,1 +1,24 @@
 .claude/
+
+# Downloaded/auto-generated — regenerates on first server boot
+mods/
+libraries/
+versions/
+fabric-server-launch.jar
+.fabric/
+.mixin.out/
+stackdeobf_mappings/
+showdown/
+legendary-monuments-data/
+fancymenu_data/
+
+# Runtime data — world save and logs
+world/
+logs/
+
+# Player data — usernames/UUIDs, don't publish friends' identifying info
+whitelist.json
+ops.json
+banned-players.json
+banned-ips.json
+usercache.json
