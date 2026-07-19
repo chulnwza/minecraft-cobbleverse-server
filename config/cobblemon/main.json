@@ -58,7 +58,7 @@
   "displayEntityNameLabel": true,
   "displayNameForUnknownPokemon": false,
   "displayEntityLabelsWhenCrouchingOnly": false,
-  "shinyRate": 2048.0,
+  "shinyRate": 5000.0,
   "shinyNoticeParticlesDistance": 48.0,
   "captureCalculator": "cobblemon",
   "playerDamagePokemon": false,
