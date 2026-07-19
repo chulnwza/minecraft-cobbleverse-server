@@ -1,6 +1,6 @@
 {
   "allowStarterOnJoin": true,
-  "promptStarterOnceOnly": false,
+  "promptStarterOnceOnly": true,
   "useConfigStarters": false,
   "starters": [
     {
@@ -97,7 +97,7 @@
       "name": "Pallet",
       "displayName": "Pallet",
       "pokemon": [
-        "Pikachu level=5",
+        "Pikachu level=5 moves=thundershock",
         "Eevee level=5",
         "Pichu level=5 region_bias=alola"
       ]

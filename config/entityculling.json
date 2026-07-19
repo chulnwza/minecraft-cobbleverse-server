@@ -1,10 +1,20 @@
 {
-  "configVersion": 7,
+  "configVersion": 8,
   "renderNametagsThroughWalls": true,
   "blockEntityWhitelist": [
-    "minecraft:beacon"
+    "minecraft:beacon",
+    "botania:flame_ring",
+    "create:rope_pulley",
+    "create:hose_pulley",
+    "betterend:eternal_pedestal",
+    "botania:magic_missile",
+    "botania:falling_star"
   ],
-  "entityWhitelist": [],
+  "entityWhitelist": [
+    "botania:mana_burst",
+    "drg_flares:drg_flares",
+    "quark:soul_bead"
+  ],
   "tracingDistance": 128,
   "debugMode": false,
   "sleepDelay": 10,
@@ -36,10 +46,32 @@
     "minecraft:jungle_chest_boat",
     "minecraft:pale_oak_chest_boat",
     "minecraft:bamboo_chest_raft",
-    "minecraft:mangrove_chest_boat"
+    "minecraft:mangrove_chest_boat",
+    "cinematiccataclysm:scylla_cutscene",
+    "alexscaves:gum_worm",
+    "cinematiccataclysm:maledictus_cutscene",
+    "mts:builder_rendering",
+    "drg_flares:drg_flares",
+    "mts:builder_existing",
+    "create:contraption",
+    "drg_flares:drg_flare",
+    "cinematiccataclysm:leviathan_cutscene",
+    "mts:builder_seat",
+    "alexscaves:gum_worm_segment",
+    "cinematiccataclysm:ancient_remnant_cutscene",
+    "avm_staff:campfire_flame",
+    "create:gantry_contraption",
+    "createbigcannons:cannon_carriage",
+    "createbigcannons:pitch_contraption",
+    "cinematiccataclysm:ignis_cutscene",
+    "create:stationary_contraption",
+    "create:carriage_contraption",
+    "voidscape:corrupted_pawn"
   ],
   "disableF3": false,
   "skipEntityCulling": false,
   "skipBlockEntityCulling": false,
-  "blockEntityFrustumCulling": true
+  "blockEntityFrustumCulling": true,
+  "forceDisplayCulling": false,
+  "solidLeaves": false
 }
